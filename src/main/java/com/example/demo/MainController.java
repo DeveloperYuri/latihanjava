@@ -20,5 +20,10 @@ public class MainController {
 	public String contact() {
 		return "contact";
 	}
+	
+	@RequestMapping("/media")
+	public String media() {
+		return "media";
+		}
 
 }
